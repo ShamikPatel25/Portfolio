@@ -195,25 +195,13 @@ section { padding: 60px 0; }
     color: #fff;
     justify-content: center;
 }
-
-.github-card {
-    background-color: #333;
+.social-icon {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
 }
-
-.linkedin-card {
-    background-color: #0e76a8;
+.social-icon:hover {
+  transform: scale(1.1);
 }
-
-.instagram-card {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-
-.social-card:hover {
-    transform: translateY(-3px);
-    opacity: 0.9;
-}
-
-
 
 
 
