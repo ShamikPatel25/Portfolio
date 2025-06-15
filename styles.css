@@ -102,14 +102,13 @@
     border-color: #fff; /* White border */
     color: #fff; /* White text */
     transition: all 0.3s ease; /* Smooth transition */
-    padding: auto;
+    text-align: center;
   }
 
   .custom-navbar .btn-outline-light:hover {
     background: #fff; /* White background on hover */
     color: #3b2693; /* Gradient text color */
     transform: scale(1.05); /* Slightly scale up on hover */
-    padding: auto;
   }
 
 
