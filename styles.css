@@ -109,6 +109,7 @@
     background: #fff; /* White background on hover */
     color: #3b2693; /* Gradient text color */
     transform: scale(1.05); /* Slightly scale up on hover */
+    padding: auto;
   }
 
 
