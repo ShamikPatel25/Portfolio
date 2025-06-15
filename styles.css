@@ -102,6 +102,7 @@
     border-color: #fff; /* White border */
     color: #fff; /* White text */
     transition: all 0.3s ease; /* Smooth transition */
+    padding: auto;
   }
 
   .custom-navbar .btn-outline-light:hover {
@@ -154,7 +155,7 @@
     color: white;
   }
 
-  Styled Heading
+  /* Styled Heading */
   h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
