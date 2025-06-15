@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Custom Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon/devicon.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Custom Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Shamik Patoliya</a>
+
+      <!-- Toggle button for mobile -->
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+          <svg width="30" height="30" viewBox="0 0 100 80" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="15" rx="5"></rect>
+            <rect y="30" width="100" height="15" rx="5"></rect>
+            <rect y="60" width="100" height="15" rx="5"></rect>
+          </svg>
+        </span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Home Section -->
+  <section id="home" class="py-5 text-center text-white" style="background: linear-gradient(90deg, #051065, #0c4a74);">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-lg-start">
+          <h1 class="display-4 fw-bold fade-in">Hi, I'm <span class="text-warning">Shamik Patoliya</span></h1>
+          <p class="lead fade-in mt-3">A passionate Web Developer, Programmer, and Tech Enthusiast.</p>
+          <p class="fade-in">I specialize in building modern, user-friendly, and responsive web applications. With
+            expertise in JavaScript, Python, and full-stack development, I love transforming ideas into reality through
+            clean and efficient code.</p>
+          <!-- Resume and Contact Buttons -->
+        <!-- <a href="/Resume.pdf" class="btn btn-lg mt-3 fade-in resume-btn" download>Download Resume</a> -->
+        <a href="#contact" class="btn btn-outline-light btn-lg mt-3 fade-in ms-2 contact-me">Contact Me</a>
+
+        </div>
+        <div class="col-lg-6 text-center mt-4 mt-lg-0 fade-in">
+          <img src="/1000049915-modified.png" alt="Profile Image" class="img-fluid shadow-lg rounded-circle" width="300">
+        </div>
+        <!-- Social Media Icons -->
+        <div class="mt-4 d-flex  gap-3">
+          <!-- GitHub -->
+          <a href="https://github.com/ShamikPatel25" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/shamikp_patoliya_25" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container text-center">
+      <div class="text-center position-relative my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="line"></div>
+          <div class="skills-box-skills">
+            <h2 class="fw-bold mb-0">About me</h2>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <p class="mt-3 mx-auto text-white" style="max-width: 700px;">
+        I'm <strong>Shamik Patoliya</strong>, detail-oriented Computer Engineering student with a solid foundation in programming and 
+        a strong enthusiasm for web development. I am seeking an opportunity to begin my professional journey with a 
+        progressive and innovation-driven organization, where I can apply my technical skills, contribute meaningfully, and 
+        grow continuously as part of a dynamic team.
+      </p>
+
+      <!-- Quote -->
+      <blockquote class="blockquote mt-4 text-white">
+        <p class="fst-italic">"Code is like humor. When you have to explain it, it’s bad." - Cory House</p>
+      </blockquote>
+
+      <!-- Skills Progress Bars -->
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h5 class="text-success">Frontend Development</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+          <h5 class="text-primary">Backend Development</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;">85%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <h5 class="" style="color: #8ed613;">JavaScript & Frameworks</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">80%</div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+          <h5 class="" style="color: #e59e11;">Database & API Integration</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%;">75%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Details -->
+      <div class="mt-5 text-white">
+        <p>📌 Tech Stack: HTML, CSS, JavaScript, Bootstrap, SQL
+          🔥 Passionate About: UI/UX, Performance Optimization, Problem-Solving
+          🎯 Goal: To create seamless and engaging web experiences</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container text-center">
+      <!-- Stylish Skills Heading -->
+      <div class="text-center position-relative my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="line"></div>
+          <div class="skills-box-skills">
+            <h2 class="fw-bold mb-0">Skills</h2>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- Skills Slider -->
+      <div class="skills-slider">
+        <div class="skills-track">
+          <div class="skill-box"><i class="fab fa-html5 fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-css3-alt fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-js fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-bootstrap fa-4x"></i></div>
+          <!-- <div class="skill-box"><i class="fab fa-react fa-4x"></i></div> -->
+          <div class="skill-box"><i class="fab fa-python fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-java fa-4x"></i></div>
+          <!-- <div class="skill-box"><i class="devicon-c-plain fa-4x"></i></div> -->
+          <!-- <div class="skill-box"><i class="devicon-flask-original fa-4x"></i></div> -->
+          <!-- <div class="skill-box"><i class="devicon-django-plain fa-4x"></i></div> -->
+          <div class="skill-box"><i class="fab fa-php fa-4x"></i></div>
+          <div class="skill-box"><i class="fas fa-database fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-linux fa-4x"></i></div>
+
+          <!-- Duplicate for Infinite Scrolling Effect -->
+          <div class="skill-box"><i class="fab fa-html5 fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-css3-alt fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-js fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-bootstrap fa-4x"></i></div>
+          <!-- <div class="skill-box"><i class="fab fa-react fa-4x"></i></div> -->
+          <div class="skill-box"><i class="fab fa-python fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-java fa-4x"></i></div>
+          <!-- <div class="skill-box"><i class="devicon-c-plain fa-4x"></i></div> -->
+          <!-- <div class="skill-box"><i class="devicon-flask-original fa-4x"></i></div> -->
+          <!-- <div class="skill-box"><i class="devicon-django-plain fa-4x"></i></div> -->
+          <div class="skill-box"><i class="fab fa-php fa-4x"></i></div>
+          <div class="skill-box"><i class="fas fa-database fa-4x"></i></div>
+          <div class="skill-box"><i class="fab fa-linux fa-4x"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container text-center">
+      <!-- Heading -->
+      <div class="text-center position-relative my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="line"></div>
+          <div class="skills-box-skills">
+            <h2 class="fw-bold mb-0">Projects</h2>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- Project Cards -->
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/img/Screenshot 2025-06-15 081755.png" class="card-img-top" alt="Portfolio Website">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">A responsive portfolio made with HTML, Bootstrap & JS.</p>
+              <a href="https://your-portfolio-link.com" target="_blank" class="btn btn-sm gradient-btn mt-auto">Show
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/image.png" class="card-img-top" alt="Task Management App">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Task Management App</h5>
+              <p class="card-text">Manage tasks with drag-and-drop functionality.</p>
+              <a href="https://your-taskapp-link.com" target="_blank" class="btn btn-sm gradient-btn mt-auto">Show
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/ecomm.png" class="card-img-top" alt="E-Commerce Website">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">E-Commerce Website</h5>
+              <p class="card-text">Modern design with smooth UI and animations.</p>
+              <a href="https://your-ecommerce-link.com" target="_blank" class="btn btn-sm gradient-btn mt-auto">Show
+                Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Education Section -->
+  <section id="education" class="py-5" style="background: linear-gradient(90deg, #051065, #0c4a74); color: white;">
+    <div class="container">
+      <div class="text-center position-relative my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="line"></div>
+          <div class="skills-box-skills">
+            <h2 class="fw-bold mb-0">Education</h2>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="timeline">
+            <!-- College -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Government Engineering College, Rajkot</h4>
+                <h6>B.Tech in Computer Science & Engineering (2022 - 2026)</h6>
+                <p>Currently pursuing my degree in CSE, gaining expertise in full-stack development, AI, and software
+                  engineering.</p>
+              </div>
+            </div>
+            <!-- High School -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Modi Science School, Rajkot</h4>
+                <h6>Higher Secondary (2020 - 2022)</h6>
+                <p>Completed my higher education with a focus on Science & Mathematics.</p>
+              </div>
+            </div>
+            <!-- School -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Shree Gopal Vidhyalay</h4>
+                <h6>Primary & Secondary Education (2010 - 2020)</h6>
+                <p>Built a strong foundation in academics and problem-solving.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5" style="background: linear-gradient(90deg, #051065, #0c4a74); color: white;">
+    <div class="container">
+      <div class="text-center position-relative my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="line"></div>
+          <div class="skills-box-skills">
+            <h2 class="fw-bold mb-0">Contact Me</h2>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <!-- Left Side - Contact Form -->
+        <div class="col-md-6 mb-2">
+          <form id="contact-form" class="p-4 rounded-4 shadow-lg"
+            style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border-radius: 15px;">
+            <h2>Contact me</h2>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Name</label>
+              <input type="text" id="name" class="form-control border-0 shadow-sm"
+                style="background-color: rgba(207, 183, 183, 0.096);" required>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Email</label>
+              <input type="email" id="email" class="form-control border-0 shadow-sm"
+                style="background-color: rgba(207, 183, 183, 0.096);" required>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Message</label>
+              <textarea id="message" class="form-control border-0 shadow-sm" rows="4"
+                style="background-color: rgba(207, 183, 183, 0.096);" required></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-sm gradient-btn mt-auto fw-bold fs-5 ">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Side - Contact Details & Social Media -->
+        <div class="col-md-6 text-center text-md-start">
+          <div class="p-4 rounded-4 shadow-lg"
+            style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border-radius: 15px;">
+            <h4 class="fw-bold">Contact Details</h4>
+            <p><i class="fas fa-envelope me-2"></i> <strong>Email:</strong> shamikpatoliya25@gmail.com</p>
+            <p><i class="fas fa-phone me-2"></i> <strong>Phone:</strong> +91 94263 22959</p>
+            <p><i class="fas fa-map-marker-alt me-2"></i> <strong>Address:</strong> Rajkot, Gujarat, India</p>
+
+            <!-- Social Media Icons -->
+            <div class="mt-3 d-flex justify-content-center justify-content-md-start gap-3">
+              <a href="https://github.com/ShamikPatel25" target="_blank" class="social-icon">
+                <i class="fab fa-github "></i>
+              </a>
+              <a href="https://instagram.com/shamikp_patoliya_25" target="_blank" class="social-icon">
+                <i class="fab fa-instagram "></i>
+              </a>
+              <a href="https://linkedin.com/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 text-center" style="background: linear-gradient(90deg, #051065, #0c4a74); color: white;">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Shamik Patoliya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <!-- FontAwesome Icons (Add this in <head>) -->
+</body>
+
+</html>

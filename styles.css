@@ -1,0 +1,374 @@
+  /* Custom Navbar Styles */
+  .custom-navbar {
+    background: linear-gradient(90deg, #051065, #0c4a74); /* Gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    padding: 10px 0; /* Add padding */
+    animation: fadeInDown 0.5s ease-in-out; /* Fade-in animation */
+  }
+
+  /* Fade-in animation */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .custom-navbar .navbar-brand {
+    color: #fff !important; /* White text for brand */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow */
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    color: #fff !important; /* White text for links */
+    font-size: 18px; /* Larger font size */
+    margin: 0 10px; /* Add spacing between links */
+    position: relative; /* For hover effect */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+
+  .custom-navbar .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff; /* White underline */
+    transition: width 0.3s ease; /* Smooth transition */
+  }
+
+  .custom-navbar .navbar-nav .nav-link:hover::after {
+    width: 100%; /* Expand underline on hover */
+  }
+
+  .custom-navbar .navbar-nav .nav-link:hover {
+    color: #ffeb3b !important; /* Change text color on hover */
+  }
+
+  /* Dropdown menu animation */
+  .custom-navbar .dropdown-menu {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border: none; /* Remove border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    animation: slideDown 0.3s ease-in-out; /* Slide-down animation */
+  }
+
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .custom-navbar .dropdown-item {
+    color: #333 !important; /* Dark text for dropdown items */
+    font-size: 16px; /* Font size */
+    padding: 10px 20px; /* Add padding */
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+
+  .custom-navbar .dropdown-item:hover {
+    background: rgba(255, 126, 95, 0.1); /* Light hover effect */
+  }
+
+  /* Search form animation */
+  .custom-navbar .form-control {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border: none; /* Remove border */
+    color: #fff; /* White text */
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+
+  .custom-navbar .form-control:focus {
+    background: rgba(255, 255, 255, 0.4); /* Lighten background on focus */
+  }
+
+  .custom-navbar .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light placeholder text */
+  }
+
+  .custom-navbar .btn-outline-light {
+    border-color: #fff; /* White border */
+    color: #fff; /* White text */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+
+  .custom-navbar .btn-outline-light:hover {
+    background: #fff; /* White background on hover */
+    color: #3b2693; /* Gradient text color */
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  #about{
+    background: linear-gradient(90deg, #051065, #0c4a74); /* Gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px 0; /* Add padding */
+    animation: fadeInDown 0.5s ease-in-out; /* Fade-in animation */
+    color: white;
+  }
+
+
+   /* Gradient Background */
+   #skills {
+    background: linear-gradient(90deg, #051065, #0f4c75); /* Gradient background */
+    color: white;
+  }
+
+  Styled Heading
+  h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+
+  /* Skill Slider */
+  .skills-slider {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .skills-track {
+    display: flex;
+    animation:scroll  36s linear infinite;
+    width:max-content;
+  }
+
+  
+
+  /* Skill Boxes with Neon Glow */
+  .skill-box {
+    background: rgba(3, 1, 28, 0.1);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 180px;
+    min-height: 115px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Hover Effect */
+  .skill-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(88, 59, 59, 0.6);
+  }
+
+  /* Keyframe Animation */
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+/* Background Gradient for Projects Section */
+#projects {
+  background: linear-gradient(90deg, #051065, #0c4a74); /* Smooth blue gradient */
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Card Styling */
+.card {
+  background: rgba(255, 255, 255, 0.05); /* Light transparent background */
+  border: 2px solid rgba(0, 123, 255, 0.6); /* Soft blue border with RGB alpha */
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.25); /* Glowing blue shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+/* Optional Hover Enhancement */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4); /* Brighter shadow on hover */
+  border: 2px solid rgba(0, 195, 255, 0.8); /* Brighter border on hover */
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Card Image */
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Card Body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gradient Button */
+.gradient-btn {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* Responsive Text Centering */
+#projects .text-center h2 {
+  color: #fff;
+}
+
+/* Optional: Decorative Horizontal Lines beside title */
+.line {
+  flex: 1;
+  height: 2px;
+  background: white;
+  margin: 0 10px;
+}
+
+
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+  }
+
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 3px solid white;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .timeline-dot {
+    position: absolute;
+    left: -12px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+  }
+  .timeline-content {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  .timeline-content:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .resume-btn{
+    background-color: rgb(10, 137, 191);
+    font-weight: 500;
+    color: white;
+    border: 2px solid rgba(19, 79, 131, 0.7);
+    border-radius: 25px;
+  }
+
+  .contact-me{
+    border-radius: 25px;
+  }
+
+.resume-btn:hover{
+  background-color: rgba(217, 204, 220, 0.4);
+}
+
+
+.skills-box-skills {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #051065, #0c4a74); /* Gradient background */
+  border: 2px solid #051065;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.line {
+  flex: 1;
+  height: 2px;
+  background: #5b6086;
+}
+
+ 
