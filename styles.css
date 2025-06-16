@@ -179,24 +179,63 @@
 
   
 
-  /* Skill Boxes with Neon Glow */
-  .skill-box {
-    background: rgba(3, 1, 28, 0.1);
-    color: #ffffff;
-    font-weight: bold;
-    padding: 12px 20px;
-    margin: 10px;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 180px;
-    min-height: 115px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: #000;
+}
+
+.skill-box i {
+  transition: transform 0.3s ease;
+}
+
+.skill-box i:hover {
+  transform: scale(1.2);
+}
+
+.skill-box p {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Icon colors */
+.text-html {
+  color: #e34c26;
+}
+
+.text-css {
+  color: #264de4;
+}
+
+.text-js {
+  color: #f0db4f;
+}
+
+.text-bootstrap {
+  color: #7952b3;
+}
+
+.text-python {
+  color: #306998;
+}
+
+.text-java {
+  color: #007396;
+}
+
+.text-php {
+  color: #8892be;
+}
+
+.text-database {
+  color: #6c757d;
+}
+
+.text-linux {
+  color: #000;
+}
+
 
   /* Hover Effect */
   .skill-box:hover {
