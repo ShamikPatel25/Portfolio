@@ -1,6 +1,6 @@
   /* Custom Navbar Styles */
   .custom-navbar {
-    background: linear-gradient(90deg, #051065, #0c4a74); /* Gradient background */
+    background: linear-gradient(135deg, rgb(29, 38, 113), rgb(195, 55, 100));
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
     padding: 10px 0; /* Add padding */
     animation: fadeInDown 0.5s ease-in-out; /* Fade-in animation */
