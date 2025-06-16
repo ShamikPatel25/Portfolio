@@ -102,7 +102,6 @@
     border-color: #fff; /* White border */
     color: #fff; /* White text */
     transition: all 0.3s ease; /* Smooth transition */
-    text-align: center;
   }
 
   .custom-navbar .btn-outline-light:hover {
