@@ -369,5 +369,10 @@
   height: 2px;
   background: #5b6086;
 }
-
+/* Center social icons on mobile and small screens */
+ @media (max-width: 991px) {
+  .social-icon-container {
+    justify-content: center !important;
+  }
+}
  
